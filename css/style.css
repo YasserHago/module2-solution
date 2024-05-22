@@ -1,0 +1,72 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Segoe UI", Tahoma,san-serif;
+	font-size: 18px;
+}
+h1{
+	font-size: 1.75em;
+	text-align: center;
+	color: darkgoldenrod;
+	padding: 20px;
+}
+.row{
+	width: 100%;
+}
+@media(Min-width: 992px){
+	.DesktopLayout{
+		width: 33.33%;
+		float: left;
+		padding: 20px;
+	}
+}
+@media(Min-width: 768px) and (max-width: 991.99px){
+	.TapLayout{
+		width: 50%;
+		float: left;
+		padding: 20px;
+	}
+	.LastLayer{
+		width: 100%;
+		float: left;
+		padding: 20px;
+	}
+}
+@media(max-width: 767.99px){
+	.MobileLayout{
+		width: 100%;
+		float: left;
+		padding: 20px;
+	}
+}
+.container{
+	border: 1px solid black;
+	position: relative;
+	padding: 20px;
+	background-color: rgb(230, 230, 230);
+}
+h3{
+	font-size: 1.25em;
+	border: 1px solid black;
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#first{
+	background-color: darkcyan;
+	color: pink;
+}
+#second{
+	background-color: #ee3e83;
+	color: #ffcc79;
+}
+#third{
+	background-color: #ffcc79;
+}
+p{
+	margin-top: 20px;
+	text-align: justify;
+}
